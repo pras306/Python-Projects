@@ -20,7 +20,6 @@ The following are the projects that I have worked on
 - [Web Scrapper](web-scrapper/README.md)
 - [Automate File Sorter](automate-file-sorter/README.md)
 - [Data Cleaning](data-cleaning/README.md)
-- [Tech Professional Survey Analysis](../tech-jobs-survey-analysis/README.md)
 
 [Back to the Top](#projects-in-python)
 
