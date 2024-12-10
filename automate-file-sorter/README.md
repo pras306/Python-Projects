@@ -1,28 +1,60 @@
-# Projects in Python
+# Automate File Sorter
 
 ---
 
 ### Table of Contents
 
-- [Projects](#projects)
+- [Objective](#objective)
+- [Technologies](#technologies)
+- [Project Files](#project-files)
+- [Project Outcome](#project-outcome)
 - [License](#license)
 - [Author Info](#author-info)
 
 ---
 
-## Projects
+## Objective
 
-This repository contains my data analysis projects which I have worked using Python.
+- Automate sorting of different types of files based on the file types
+- Create Folders for each type and store the files in appropriate folders.
 
-The following are the projects that I have worked on
+[Back to the Top](#automate-file-sorter)
 
-- [Automate API Data Extraction](automate-api-extraction/README.md)
-- [Web Scrapper](web-scrapper/README.md)
-- [Automate File Sorter](automate-file-sorter/README.md)
-- [Data Cleaning](data-cleaning/README.md)
-- [Tech Professional Survey Analysis](../tech-jobs-survey-analysis/README.md)
+---
 
-[Back to the Top](#projects-in-python)
+## Technologies
+
+- Python
+
+[Back to the Top](#automate-file-sorter)
+
+---
+
+## Project Files
+
+The following are the files in this project.
+
+- [Source Code](AutomaticFileSorter.py)
+- [Sorted Folders](Files)
+
+#### Key Tasks
+
+- Create a list of all the different files in the destination folder.
+- For each file,
+    - Check if there is a folder for the current file type.
+    - If there is a folder, move the file into the folder
+    - If there is not, create a new folder and move the file into the new folder.
+- Repeat the above process for all the files.
+
+[Back to the Top](#automate-file-sorter)
+
+---
+
+## Project Outcome
+
+- The files were stored in appropriate folders. Check the folder [here](Files)
+
+[Back to the Top](#automate-file-sorter)
 
 ---
 
@@ -50,7 +82,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back to the Top](#projects-in-python)
+[Back to the Top](#automate-file-sorter)
 
 ---
 
@@ -59,4 +91,4 @@ SOFTWARE.
 - Github - [pras306](https://github.com/pras306)
 - LinkedIn - [Prasanna Sriram](https://www.linkedin.com/in/prasanna-sriram/)
 
-[Back to the Top](#projects-in-python)
+[Back to the Top](#automate-file-sorter)

@@ -1,28 +1,61 @@
-# Projects in Python
+# Data Cleaning
 
 ---
 
 ### Table of Contents
 
-- [Projects](#projects)
+- [Objective](#objective)
+- [Technologies](#technologies)
+- [Project Files](#project-files)
+- [Project Outcome](#project-outcome)
 - [License](#license)
 - [Author Info](#author-info)
 
 ---
 
-## Projects
+## Objective
 
-This repository contains my data analysis projects which I have worked using Python.
+- Objective of this project is to clean the [Customer Call data](CustomerCallList.xlsx) provided to us.
+- Perform data cleaning and transformation and prepare data for futher analysis.
 
-The following are the projects that I have worked on
+[Back to the Top](#data-cleaning)
 
-- [Automate API Data Extraction](automate-api-extraction/README.md)
-- [Web Scrapper](web-scrapper/README.md)
-- [Automate File Sorter](automate-file-sorter/README.md)
-- [Data Cleaning](data-cleaning/README.md)
-- [Tech Professional Survey Analysis](../tech-jobs-survey-analysis/README.md)
+---
 
-[Back to the Top](#projects-in-python)
+## Technologies
+
+- Python
+
+[Back to the Top](#data-cleaning)
+
+---
+
+## Project Files
+
+The following are the files in this project.
+
+- [Source Code](PandasDataCleaning.py)
+- [Source Data File](CustomerCallList.xlsx)
+- [Result Data File](FinalList.csv)
+
+#### Key Tasks
+
+- Perform a check for removing duplicates, unwanted columns and unwanted data.
+- Standardize the format in the phone number column.
+- Split the address column to normalize it.
+- Standardize the Paying customer and Do not contact columns.
+- Remove the null values and customers who have requested not to be contacted.
+- Write final data into a CSV file for further analysis.
+
+[Back to the Top](#data-cleaning)
+
+---
+
+## Project Outcome
+
+- The cleaned and transformed data was stored [here](FinalList.csv)
+
+[Back to the Top](#data-cleaning)
 
 ---
 
@@ -50,7 +83,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Back to the Top](#projects-in-python)
+[Back to the Top](#data-cleaning)
 
 ---
 
@@ -59,4 +92,4 @@ SOFTWARE.
 - Github - [pras306](https://github.com/pras306)
 - LinkedIn - [Prasanna Sriram](https://www.linkedin.com/in/prasanna-sriram/)
 
-[Back to the Top](#projects-in-python)
+[Back to the Top](#data-cleaning)
